@@ -4,6 +4,8 @@ section optimisation => à faire
     Supprimer le code js et css inutile
     Mettre les images à la bonne taille
     Réduire la charge réseau (network payload)
+    Minifier le JS et le css
+    faire de la compréssion de texte
 
 
 section balise => terminé
