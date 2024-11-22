@@ -4,8 +4,6 @@ section optimisation => à faire
     Supprimer le code js et css inutile
     Mettre les images à la bonne taille
     Réduire la charge réseau (network payload)
-    Minifier le JS et le css
-    faire de la compréssion de texte
 
 
 section balise => terminé
@@ -16,8 +14,17 @@ section balise => terminé
     Changer le contrast des textes sur le fond
 
 
-SEO => terminé
+SEO => en cours
 
-    Ajouter une balise title 
-    Ajouter des ALT aux images
-    Ajouter les META
+    Ajouter une balise title => terminé
+    Ajouter des ALT aux images => terminé
+    Ajouter les META => à faire 
+    Rapport richSnippet => à faire
+    utiliser schema.org => à faire
+
+Accessibilité => à faire 
+
+    Utiliser wave pour corriger toutes les erreurs => à faire
+
+
+Rapport final => à faire
