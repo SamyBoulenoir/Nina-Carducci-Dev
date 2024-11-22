@@ -1,7 +1,9 @@
-Changer le format des images en webp
-Supprimer le code js et css inutile
-Mettre les images à la bonne taille
-Réduire la charge réseau (network payload)
+section optimisation => à faire
+
+    Changer le format des images en webp
+    Supprimer le code js et css inutile
+    Mettre les images à la bonne taille
+    Réduire la charge réseau (network payload)
 
 
 section balise => terminé
