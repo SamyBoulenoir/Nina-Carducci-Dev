@@ -15,6 +15,7 @@ section balise => terminé
 
 
 SEO => en cours
+SEO => en cours
 
     Ajouter une balise title => terminé
     Ajouter des ALT aux images => terminé
