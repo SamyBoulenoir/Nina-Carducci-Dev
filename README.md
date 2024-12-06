@@ -1,9 +1,9 @@
-section optimisation => à faire
+section optimisation => terminé
 
-    Changer le format des images en webp
-    Supprimer le code js et css inutile
-    Mettre les images à la bonne taille
-    Réduire la charge réseau (network payload)
+    Changer le format des images en webp => terminé
+    Supprimer le code js et css inutile => terminé
+    Mettre les images à la bonne taille => terminé
+    Réduire la charge réseau (network payload) => terminé
 
 
 section balise => terminé
@@ -18,13 +18,13 @@ SEO => en cours
 
     Ajouter une balise title => terminé
     Ajouter des ALT aux images => terminé
-    Ajouter les META => à faire 
-    Rapport richSnippet => à faire
-    utiliser schema.org => à faire
+    Ajouter les META => terminé
+    Rapport richSnippet => terminé
+    utiliser schema.org => terminé
 
-Accessibilité => à faire 
+Accessibilité => terminé
 
-    Utiliser wave pour corriger toutes les erreurs => à faire
+    Utiliser wave pour corriger toutes les erreurs => terminé
 
 
 Rapport final => à faire
