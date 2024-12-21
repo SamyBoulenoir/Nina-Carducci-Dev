@@ -1,0 +1,163 @@
+/documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+% Configuration de la mise en page
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Rapport SEO - Optimisation et Débogage}
+\rhead{\thepage}
+
+\title{\textbf{Rapport d'optimisation SEO}}
+\author{
+  Nina Carducci\\
+  \textit{Intervention réalisée pour un projet client}
+}
+\date{\vspace{-1.5cm}}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\tableofcontents
+\newpage
+
+\section{Comparatif avant et après optimisation}
+\subsection{Score Lighthouse}
+\begin{itemize}
+    \item Avant optimisation : Analyse complète des scores initiaux des performances.
+    \begin{figure}[h!] % h! pour forcer le placement ici
+    \centering % Centrer l'image
+    \includegraphics[width=0.8\textwidth]{imag1.png} % Chemin et taille de l'image
+    \caption{Score lightouse avant optimisation} % Légende
+    \label{imag1.png} % Référence pour faire appel à l'image plus tard
+    \end{figure}
+    \newpage
+    \item Après optimisation : Amélioration des scores grâce aux interventions décrites ci-dessous.
+    \begin{figure}[h!] % h! pour forcer le placement ici
+    \centering % Centrer l'image
+    \includegraphics[width=0.8\textwidth]{imag2.png} % Chemin et taille de l'image
+    \caption{Score lightouse après optimisation} % Légende
+    \label{imag2.png} % Référence pour faire appel à l'image plus tard
+    \end{figure}
+\end{itemize}
+
+
+
+\newpage
+\section{Détails des optimisations}
+\subsection{Images}
+\begin{itemize}
+    \item Réduction de la taille des images.
+    \item Conversion des images au format WebP.
+    \item Légère baisse de qualité pour réduire la taille sans impact significatif sur la perception visuelle.
+\end{itemize}
+
+\subsection{Débogage}
+\begin{itemize}
+    \item Résolution des parties non fonctionnelles, telles que :
+    \begin{enumerate}
+        \item Carousel.
+        \item Boutons des filtres.
+    \end{enumerate}
+\end{itemize}
+
+\subsection{Minification}
+\begin{itemize}
+    \item Réduction de la taille des fichiers CSS, HTML et JavaScript via minification.
+    \item Utilisation du fichier CSS Bootstrap minifié.
+\end{itemize}
+
+\subsection{SEO}
+\begin{itemize}
+    \item Ajout de sections pour compartimenter le code.
+    \item Inclusion des balises meta description et des balises pour les réseaux sociaux.
+    \item Ajout du référencement local.
+    \item Mise en place des Google Rich Snippets.
+\end{itemize}
+
+\newpage
+\section{Accessibilité du site}
+\subsection{Optimisation Wave}
+\begin{itemize}
+    \item Accessibilité avant optimisation :
+    \begin{figure}[h!] % h! pour forcer le placement ici
+    \centering % Centrer l'image
+    \includegraphics[width=0.7\textwidth]{imag3.png} % Chemin et taille de l'image
+    \caption{ Wave avant optimisation} % Légende
+    \label{imag3.png} % Référence pour faire appel à l'image plus tard
+    \end{figure}
+    \newpage
+    \item Accessibilité après optimisation :
+    \begin{figure}[h!] % h! pour forcer le placement ici
+    \centering % Centrer l'image
+    \includegraphics[width=0.7\textwidth]{imag4.png} % Chemin et taille de l'image
+    \caption{ Wave après optimisation} % Légende
+    \label{imag3.png} % Référence pour faire appel à l'image plus tard
+    \end{figure}
+\end{itemize}
+\subsection{Modifications effectuées}
+\begin{itemize}
+    \item Pour éviter les nuances de couleurs trop faibles, j’ai changé la couleur des filtres pour les images et la couleur du texte en dessous pour qu’il soit visible (de blanc à noir).
+\end{itemize}
+
+\newpage
+\section{Réalisations additionnelles à la demande du client}
+\subsection{Correction du carrousel}
+\begin{itemize}
+    \item Résolution d'un bug empêchant le fonctionnement des flèches pour naviguer entre les images.
+\end{itemize}
+
+\subsection{Correction des filtres}
+\begin{itemize}
+    \item Correction d'un bug où les boutons des filtres ne prenaient pas la couleur appropriée lorsqu'ils étaient sélectionnés.
+\end{itemize}
+
+\newpage
+\section*{Annexe}
+\subsection*{Rapport complet de l’audit Lighthouse}
+Veuillez trouver le rapport complet en annexe pour plus de détails sur les scores avant et après optimisation.
+
+ \begin{figure}[h!] % h! pour forcer le placement ici
+    \centering % Centrer l'image
+    \includegraphics[width=1\textwidth]{Samy2.png} % Chemin et taille de l'image
+    \caption{Performance} % Légende
+    \label{Samy2.png} % Référence pour faire appel à l'image plus tard
+    \end{figure}
+    \newpage
+
+     \begin{figure}[h!] % h! pour forcer le placement ici
+    \centering % Centrer l'image
+    \includegraphics[width=1\textwidth]{Samy1.png} % Chemin et taille de l'image
+    \caption{Accessibility} % Légende
+    \label{Samy1.png} % Référence pour faire appel à l'image plus tard
+    \end{figure}
+    \newpage
+
+     \begin{figure}[h!] % h! pour forcer le placement ici
+    \centering % Centrer l'image
+    \includegraphics[width=1\textwidth]{Samy3.png} % Chemin et taille de l'image
+    \caption{Best Practices} % Légende
+    \label{Samy3.png} % Référence pour faire appel à l'image plus tard
+    \end{figure}
+    \newpage
+
+
+    \begin{figure}[h!] % h! pour forcer le placement ici
+    \centering % Centrer l'image
+    \includegraphics[width=1\textwidth]{Samy4.png} % Chemin et taille de l'image
+    \caption{SEO} % Légende
+    \label{Samy4.png} % Référence pour faire appel à l'image plus tard
+    \end{figure}
+    \newpage
+
+\end{document}
